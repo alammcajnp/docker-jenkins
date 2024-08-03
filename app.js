@@ -20,8 +20,8 @@ route.get("/health", async (req, res) => {
     .json({ message: "This is health check, after deploy success 111 333" });
 });
 
-route.listen(8080, () => {
+route.listen(3003, () => {
   console.log(
-    "Server is running on port 8080, this is testing after depployemnt"
+    "Server is running on port 3003, this is testing after depployemnt"
   );
 });
