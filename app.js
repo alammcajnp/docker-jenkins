@@ -14,7 +14,7 @@ route.get("/final", async (req, res) => {
   res.status(200).json({ message: "This is final testing, Now Done " });
 });
 
-route.get("/health-check", async (req, res) => {
+route.get("/health", async (req, res) => {
   res
     .status(200)
     .json({ message: "This is health check, after deploy success 111 333" });
