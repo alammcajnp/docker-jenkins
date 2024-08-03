@@ -10,6 +10,10 @@ route.get("/", async (req, res) => {
     .json({ message: "This is route url, after deploy success1111" });
 });
 
+route.get("/final", async (req, res) => {
+  res.status(200).json({ message: "This is final testing" });
+});
+
 route.get("/health-check", async (req, res) => {
   res
     .status(200)
